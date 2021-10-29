@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.detail_title {
+  width: 200px;
+  /* display: inline-block; */
+}
+.title_rate {
+  display: flex;
+}
+.movie_detail {
+  display: flex;
+  /* width: 550px; */
+}
+.movie_img {
+  width: 600px;
+  /* height: 400px; */
+  /* background-image: red; */
+}
+.hour {
+  background-color: silver;
+  border-radius: 5px;
+  padding: 0 5px;
+  margin: 10px;
+}
+.rate {
+  color: blue;
+  /* padding-left: 200px; */
+}
+.side {
+  margin-left: 10px;
+}
+.movie {
+  border: 1px solid black;
+  margin-bottom: 50px;
+  width: 100px;
+  margin-left: 50px;
+  margin-top: 40px;
+  display: inline-block;
+}
+
+img {
+  width: 100%;
+}
+.type {
+  border: 1px solid red;
+  border-radius: 5px;
+  background-color: rgb(247, 166, 166);
+  margin-bottom: 5px;
+  margin-left: 3px;
+  display: inline-block;
+}
+.title {
+  padding-left: 1px;
+  display: inline-block;
+}
+.search-input {
+  padding: 10px;
+  width: 400px;
+  border-radius: 5px;
+}
+.search-type {
+  padding: 10px;
+  width: 75px;
+  margin-left: 30px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.search-drop {
+  padding: 10px;
+  width: 75px;
+  border-radius: 5px;
+}
+.movie_list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.pagination {
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+ul.pagination li {
+  /* display: inline-block; */
+  width: 30px;
+  border: 1px solid #e2e2e2;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+
+ul.pagination li a {
+  text-decoration: none;
+  color: #337ab7;
+  font-size: 20px;
+}
+
+ul.pagination li.active a {
+  color: white;
+}
+ul.pagination li.active {
+  background-color: #337ab7;
+}
+
+ul.pagination li a:hover,
+ul.pagination li a.active {
+  color: blue;
+}
+.movielist {
+  margin-bottom: 50px;
+}
+/* .Pagination{
+  display: flex;
+} */
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

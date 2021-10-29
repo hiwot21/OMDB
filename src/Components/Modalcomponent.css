@@ -1,0 +1,30 @@
+.modal_custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .modal-conten {
+    width: 70%;
+    padding: 20px;
+    background-color: lightgrey;
+  }
+  
+  .modal-close-button-containe {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .modal-close-button-containe button {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    font-size: 1.5em;
+  }
